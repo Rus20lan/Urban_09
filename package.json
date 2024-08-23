@@ -1,0 +1,12 @@
+{
+  "name": "urban_09",
+  "version": "1.0.0",
+  "description": "Практическая работа по модулю \"Некоторые интересные и (крайне) полезные инструменты\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ruslan Sadikov",
+  "license": "ISC"
+}
