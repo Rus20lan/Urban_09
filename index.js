@@ -1,3 +1,3 @@
-var x = 'save';
+let x = 'save';
 
 console.log(x);
