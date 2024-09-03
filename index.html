@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script
+      src="https://js-de.sentry-cdn.com/de6f0a294e741e3f17333f61f1c63366.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      Sentry.onLoad(function () {
+        Sentry.init({
+          // Tracing
+          tracesSampleRate: 1.0,
+          // Session Replay
+          replaysSessionSampleRate: 0.1,
+          replaysOnErrorSampleRate: 1.0,
+        });
+      });
+    </script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

@@ -4,7 +4,9 @@
   "description": "Практическая работа по модулю \"Некоторые интересные и (крайне) полезные инструменты\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "npx eslint index.js",
+    "prettier": "npx prettier --write index.js"
   },
   "keywords": [],
   "author": "Ruslan Sadikov",
@@ -14,5 +16,9 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "@sentry/browser": "^8.26.0",
+    "@sentry/tracing": "^7.114.0"
   }
 }
